@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz Life</title>
+        <link rel="stylesheet" href="CSS/style.css">
+
+    </head>
+    <body>
+        <!-- quiz header -->
+        <header>
+            <img src="image/image_one.jpg" alt="" id="logo">
+            <h1>
+                Quiz App
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="">INFORS</a>
+                    </li>
+                    <li>
+                        <a href="">HTML</a>
+                    </li>
+                    <li>
+                        <a href="">CSS</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form method="post">
+                <section>
+                    <h1 id="student_info">
+                        STUDENT INFORMATION
+                    </h1> <hr>
+                    <div class="info">
+                        <label for="sudent_name">
+                            Student Name
+                        </label>
+                        <input type="text" name="student_name" id="student_name" placeholder="student name">                        
+                    </div>
+                    <div class="info">
+                        <label for="sudent_subject">
+                            Student Subject 
+                        </label>
+                        <input type="text" name="student_student" id="student_subject" placeholder="student subject">
+                    </div>
+                    <div class="info">
+                        <label for="sudent_gender"> 
+                            Student Gander <br> 
+                            <input type="radio" name="student_gender" id="student_gender">MALE
+                        </label>
+                        <label for="info">
+                            <input type="radio" name="student_gender" id="student_gender">FEMALE
+                        </label>
+                    </div>
+                    <div class="info">
+                        <label for="sudent_age">
+                            Student Age
+                        </label>
+                        <input type="number" name="student_age" id="student_age" min="10" max="100">
+                    </div>
+                    <div class="info">
+                        <label for="student_email">
+                            Student Email
+                        </label>
+                        <input type="email" name="student_email" id="student_email">
+                    </div>
+                    <div class="info">
+                        <label for="student_date">
+                            Student Date 
+                        </label>
+                        <input type="date" name="student_date" id="student_date">
+                    </div>
+                    <div class="info">
+                        <label for="sudent_state">
+                            Student State
+                        </label>
+                        <select name="student_state" id="student_state">
+                            <option value="">Select An Option</option>
+                            <option value="">Abia</option>
+                            <option value="">Calaba</option>
+                            <option value="">OGUN</option>
+                            <option value="">Abia</option>
+                            <option value="">Abia</option>
+                            <option value="">Abeokuta</option>
+                            <option value="">Abia</option>
+                            <option value="">Abia</option>
+                            <option value="">Abia</option>
+                            <option value="">Abia</option>
+                            <option value="">Abia</option>
+                            <option value="">Abia</option>
+                            <option value="">Abia</option>
+                            <option value="">Abia</option>
+
+                        </select>
+                    </div>
+                    <div class="info">
+                        <label for="sudent_number">
+                            Student Number
+                        </label>
+                        <input type="number"  name="student_number" id="student_number" placeholder="student_number">
+                    </div>
+                </section>
+                <section>
+                    <h2 id="html_question">
+                        Html Question
+                    </h2>
+                    <div class="question_block">
+                        <p>
+                            One
+                        </p>
+                        <fieldset class="question">
+                            <legend>
+                                what is bad Life:
+                            </legend>
+                            <ul class="answer">
+                                <li>
+                                    <input type="radio" id="q1-answer1" name="answer">
+                                    <label for="q1-answer1">good feeling</label>
+                                    
+                                </li>
+                                <li>
+                                    <input type="radio" id="q2-answer2" name="answer">
+                                    <label for="q2-answer2">good feeling</label>
+                                
+                                </li>
+                                <li>
+                                    <input type="radio" id="q3-answer3" name="answer">
+                                    <label for="q3answer3">good feeling</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="q4-answer4" name="answer">
+                                    <label for="q4-answer4">good feeling</label>
+                                </li>
+                                
+                            </ul>
+                        </fieldset>
+                    </div>
+                </section>
+            </form>
+        </main>
+    </body>
+</html>
